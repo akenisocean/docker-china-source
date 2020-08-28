@@ -2,7 +2,7 @@
 ## docker-elasticsearch
 
 ##  安装并启动
-
+中文博客地址：https://www.cnblogs.com/woshimrf/p/docker-es7.html
 1. 创建data和logs目录
 
 ```
@@ -32,29 +32,29 @@ sudo docker-compose up
 sudo docker exec -it es01 /bin/bash
 
 # 创建密码
-[root@cfeeab4bb0eb elasticsearch]# ./bin/elasticsearch-setup-passwords auto
+[root@cfeeab4bb0eb elasticsearch]# ./bin/elasticsearch-setup-passwords interactive
 Initiating the setup of passwords for reserved users elastic,apm_system,kibana,logstash_system,beats_system,remote_monitoring_user.
 The passwords will be randomly generated and printed to the console.
 Please confirm that you would like to continue [y/N]y
 
 
 Changed password for user apm_system
-PASSWORD apm_system = YxVzeT9B2jEDUjYp66Ws
+PASSWORD apm_system = 
 
 Changed password for user kibana
-PASSWORD kibana = 8NnThbj0N02iDaTGhidU
+PASSWORD kibana = 
 
 Changed password for user logstash_system
-PASSWORD logstash_system = 9nIDGe7KSV8SQidSk8Dj
+PASSWORD logstash_system = 
 
 Changed password for user beats_system
-PASSWORD beats_system = qeuVaf1VEALpJHfEUOjJ
+PASSWORD beats_system = 
 
 Changed password for user remote_monitoring_user
-PASSWORD remote_monitoring_user = DtZCrCkVTZsinRn3tW3D
+PASSWORD remote_monitoring_user = 
 
 Changed password for user elastic
-PASSWORD elastic = q5f2qNfUJQyvZPIz57MZ
+PASSWORD elastic = 
 ```
 
 
